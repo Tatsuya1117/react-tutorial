@@ -18,9 +18,13 @@ class Square extends React.Component {
   }
 
     render() {
+
+      // return の前であればメンバ変数として変数を定義できる
+      const square__class__name = 'square'
+
       return (
         <button 
-          className="square"
+          className={square__class__name} /* こんな感じで{}を使ってタグ内に記述ができる */
           onClick={() => this.setState({value: 'X'})}
         >
           {this.state.value}
