@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 //以下はアプリパフォーマンスを測定したい場合に設定するやつ 
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from './pages/reportWebVitals';
 reportWebVitals();
 
 // Reactチュートリアル ( https://ja.reactjs.org/tutorial/tutorial.html )
